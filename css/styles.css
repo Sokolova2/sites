@@ -3,9 +3,11 @@ header{
     justify-content: space-between;
     color: #f9faf8;
     background-color: #1f2937;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 18px; 
     padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
     flex: 1;
 }
 
@@ -27,6 +29,144 @@ li{
     margin: 5px;
 }
 
-section{
-    padding: 12px;
+.block{
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    font-size: 18px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 60px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+
+
+.inline{
+    display: block;
+    padding: 20px;
+    flex: 1;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+p{
+    padding: 5px;
+    font-size: 18px;
+}
+
+button{
+    list-style-type: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-weight: 800;
+    border: 2px solid #e5e7eb;
+    flex: 1;
+}
+
+.button{
+    border: none;
+}
+
+.types{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.shoes{
+    display: block;
+    padding: 20px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border: 3px solid #2c2f35;;
+}
+
+h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.types.shoes{
+    padding: 10px;
+    margin: 20px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quote.text{
+    font-style: italic;
+    font-size: 36px;
+    color: #29374a;
+    font-weight: 100;
+    text-align: center;
+}
+.author.quote{
+    text-align: end;
+    padding-right: 500px;
+    font-size: 24px;
+}
+
+.action{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 50px 0;
+    margin: 100px 0;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius:10px ;
+}
+
+.action_block{
+    display: block;
+}
+
+.call_action{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-list{
+    text-align: center;
+    padding: 2px;
 }
