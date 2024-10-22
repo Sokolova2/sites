@@ -1,32 +1,27 @@
-header{
+.header{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     color: #f9faf8;
     background-color: #1f2937;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px; 
+}
+
+.ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
-    padding-left: 300px;
-    padding-right: 300px;
-    flex: 1;
 }
 
 .logo{
     font-size: 24px;
     font-weight: bold;
-}
-
-ul{
-    list-style-type: none;
-    display: flex;
-    padding: 0px;
-    margin: 0;
-    align-items: baseline;
-    flex: 1;
-}
-
-li{
-    margin: 5px;
 }
 
 .block{
